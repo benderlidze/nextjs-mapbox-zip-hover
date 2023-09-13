@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react";
 import { useState } from "react";
 import { useControl, Marker, MarkerProps, ControlPosition } from "react-map-gl";
@@ -32,7 +33,6 @@ export function Geocoder(props: GeocoderControlProps) {
       // ctrl.on("results", props.onResults);
       ctrl.on("result", (evt) => {
         // props.onResult(evt);
-
         const { result } = evt;
         const location =
           result &&
