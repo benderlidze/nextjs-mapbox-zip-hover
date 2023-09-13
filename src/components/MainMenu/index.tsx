@@ -1,3 +1,6 @@
+import React from "react";
+import "react-map-gl-geocoder/dist/mapbox-gl-geocoder.css";
+
 export const MainMenu = () => {
   return (
     <div
