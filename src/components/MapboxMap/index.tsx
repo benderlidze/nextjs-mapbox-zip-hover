@@ -165,15 +165,17 @@ export const MapboxMap = () => {
         interactiveLayerIds={["zip"]}
         projection={{ name: "mercator" }}
       >
-        <Geocoder
-          position="top-left"
-        />
+        <Geocoder position="top-left" />
         <Source type="vector" url="mapbox://jn1532.2z2q31r2">
           <Layer beforeId="waterway" {...zipLayer} />
         </Source>
       </Map>
-
       {selectedZip && <ZipInfo data={selectedZip} />}
+
+      <div className="map-overlay">
+        <img src="/logo.png" />
+        fully on-chain by Dfinity
+      </div>
     </div>
   );
 };

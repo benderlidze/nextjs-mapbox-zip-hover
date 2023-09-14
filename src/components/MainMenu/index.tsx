@@ -11,7 +11,9 @@ export const MainMenu = () => {
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
-        <img src="/Mapzlogo.png" alt="logo" />
+        <a href="https://mapz.live/">
+          <img src="/Mapzlogo.png" alt="logo" />
+        </a>
         <h1>Mapz</h1>
       </div>
 
@@ -23,8 +25,9 @@ export const MainMenu = () => {
           justifyContent: "center",
         }}
       >
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a href="https://mapz.live/mapz-waitlist/" className="button">
+          Join Waitlist
+        </a>
       </div>
     </div>
   );
