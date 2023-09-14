@@ -21,6 +21,7 @@ body {
   display: inline-block;
   font-size: 16px;
   border-radius: 15px;
+  margin-right: 10px;
 }
 .map-overlay {
   position: relative;
