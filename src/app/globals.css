@@ -39,4 +39,5 @@ body {
 .map-overlay > img {
   margin-right: 10px;
   width: 600px;
+  filter: drop-shadow(0px 0px 2px #ffffff);
 }
