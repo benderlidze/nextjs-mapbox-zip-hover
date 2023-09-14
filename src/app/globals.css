@@ -24,21 +24,19 @@ body {
 }
 .map-overlay {
   position: relative;
-  left: 100px;
-  bottom: 30px;
+  bottom: 80px;
   pointer-events: none;
   z-index: 1000;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: fit-content;
-
+  /* width: fit-content; */
+  width: 100%;
   color: white;
-  text-shadow: 0 0 10px black;
 }
 
 .map-overlay > img {
-  width: 20px;
   margin-right: 10px;
+  width: 600px;
 }

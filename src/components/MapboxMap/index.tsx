@@ -173,8 +173,7 @@ export const MapboxMap = () => {
       {selectedZip && <ZipInfo data={selectedZip} />}
 
       <div className="map-overlay">
-        <img src="/logo.png" />
-        fully on-chain by Dfinity
+        <img src="/dfinity.png" />
       </div>
     </div>
   );
